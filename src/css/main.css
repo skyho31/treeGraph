@@ -20,8 +20,8 @@ body {
 .dataBox {
   width:100px;
   height:60px;
-  background: rgba(0,0,0,.5);
-  /* background: #34495e; */
+  /* background: rgba(0,0,0,.5); */
+  background: #34495e;
   border-radius: 5px;
   color:white;
   text-align: center;

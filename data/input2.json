@@ -116,5 +116,62 @@
       "name",
       "lv"
     ]
+  },
+  "108a921c.f139de": {
+    "id": "108a921c.f139de",
+    "name": "G",
+    "relation": {
+      "bcc05193.aac1c": {
+        "targetId": "108a921c.f139de",
+        "sourceId": "bcc05193.aac1c",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      },
+      "dfc5066c.705b38": {
+        "targetId": "108a921c.f139de",
+        "sourceId": "dfc5066c.705b38",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "name",
+      "lv"
+    ]
+  },
+  "95f8070d.7deb18": {
+    "id": "95f8070d.7deb18",
+    "name": "H",
+    "relation": {
+      "b7c0d4cb.1ce928": {
+        "targetId": "95f8070d.7deb18",
+        "sourceId": "b7c0d4cb.1ce928",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      },
+      "108a921c.f139de": {
+        "targetId": "95f8070d.7deb18",
+        "sourceId": "108a921c.f139de",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": []
   }
 }

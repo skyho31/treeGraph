@@ -65,7 +65,11 @@ export default class Graph {
 
   setGrid(node, level){
     let { target } = node;
-    if(node.checked) return;
+    if(node.checked) {
+      node.grid += 1;
+      this.gridTree[level] +=1;
+      return false;
+    } 
 
     let grid = 0; 
     this.gridTree[level] = this.gridTree[level] || 0;
