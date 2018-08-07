@@ -2,7 +2,7 @@
 ///////////////////////////////////
 //  define class
 //////////////////////////////////
-export default class upGraph {
+export default class Graph {
   constructor(){
     this.root = 0;
     this.nodes = {};
@@ -65,7 +65,11 @@ export default class upGraph {
 
   setGrid(node, level){
     let { target } = node;
-    if(node.checked) return;
+    if(node.checked) {
+      node.grid += 1;
+      this.gridTree[level] +=1;
+      return false;
+    } 
 
     let grid = 0; 
     this.gridTree[level] = this.gridTree[level] || 0;

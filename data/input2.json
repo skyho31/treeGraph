@@ -160,16 +160,6 @@
         },
         "relationKey": "",
         "type": "basic"
-      },
-      "108a921c.f139de": {
-        "targetId": "95f8070d.7deb18",
-        "sourceId": "108a921c.f139de",
-        "relation": {
-          "targetToSource": "children",
-          "sourceToTarget": "parents"
-        },
-        "relationKey": "",
-        "type": "basic"
       }
     },
     "metric": []

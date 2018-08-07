@@ -32,6 +32,22 @@ export default class Graph {
     return Object.keys(cacheNodes);
   }
 
+  getLastChildren(){
+    let roots = this.getRoots();
+
+    for(let idx = 0; idx < roots.length; idx++){
+      let lastLevel = 0;
+      let rootNode = this.nodes[roots[idx]];
+      this.getLevel(rootNode, lastLevel);
+    }
+  }
+
+  getLevel(node, level){
+    let { target } = node;
+    node.level = level+1;
+
+  }
+
 
   execute(){
     // root 구하기

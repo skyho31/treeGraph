@@ -6,8 +6,8 @@ import { TreeGraph } from './js/Components'
 import './css/main.css';
 
 // import data
-// import inputData from '../data/input.json';
-import inputData from '../data/input2.json';
+import inputData from '../data/input.json';
+// import inputData from '../data/input2.json';
 
 
 Algo.initialize(inputData);
