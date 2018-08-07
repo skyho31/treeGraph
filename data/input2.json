@@ -1,0 +1,120 @@
+{
+  "3f172a1d.69daf6": {
+    "id": "3f172a1d.69daf6",
+    "name": "A",
+    "relation": {},
+    "metric": [
+      "name"
+    ]
+  },
+  "b0bcbbe2.334008": {
+    "id": "b0bcbbe2.334008",
+    "name": "E",
+    "relation": {
+      "3f172a1d.69daf6": {
+        "targetId": "b0bcbbe2.334008",
+        "sourceId": "3f172a1d.69daf6",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "name",
+      "lv"
+    ]
+  },
+  "a5486a10.7efe38": {
+    "id": "a5486a10.7efe38",
+    "name": "D",
+    "relation": {
+      "3f172a1d.69daf6": {
+        "targetId": "a5486a10.7efe38",
+        "sourceId": "3f172a1d.69daf6",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "name",
+      "lv"
+    ]
+  },
+  "bcc05193.aac1c": {
+    "id": "bcc05193.aac1c",
+    "name": "C",
+    "relation": {
+      "3f172a1d.69daf6": {
+        "targetId": "bcc05193.aac1c",
+        "sourceId": "3f172a1d.69daf6",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "name",
+      "lv"
+    ]
+  },
+  "dfc5066c.705b38": {
+    "id": "dfc5066c.705b38",
+    "name": "B",
+    "relation": {
+      "3f172a1d.69daf6": {
+        "targetId": "dfc5066c.705b38",
+        "sourceId": "3f172a1d.69daf6",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "name",
+      "lv"
+    ]
+  },
+  "b7c0d4cb.1ce928": {
+    "id": "b7c0d4cb.1ce928",
+    "name": "F",
+    "relation": {
+      "a5486a10.7efe38": {
+        "targetId": "b7c0d4cb.1ce928",
+        "sourceId": "a5486a10.7efe38",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      },
+      "b0bcbbe2.334008": {
+        "targetId": "b7c0d4cb.1ce928",
+        "sourceId": "b0bcbbe2.334008",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "name",
+      "lv"
+    ]
+  }
+}
