@@ -34,7 +34,8 @@ class Graph {
       for (let j of get_values)
         conc += j + " ";
 
-      console.log(i + " -> " + conc);
+      let message = conc ? i + " -> " + conc : i + ' = lastChild' 
+      console.log(message);
     }
   }
 
@@ -48,7 +49,8 @@ class Graph {
       for (let j of get_values)
         conc += j + " ";
 
-      console.log(i + " -> " + conc);
+      let message = conc ? i + " -> " + conc : i + ' = root' 
+      console.log(message);
     }
   }
 
